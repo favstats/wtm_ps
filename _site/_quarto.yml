@@ -3,7 +3,7 @@ project:
   output-dir: ../docs
 
 website:
-  title: "Italian Microtargeting Dashboard"
+  title: "Who Targets Me -Palestinian Territories"
   navbar:
     left:
       - href: index.qmd
