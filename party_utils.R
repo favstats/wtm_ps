@@ -162,6 +162,19 @@ if(sets$cntry %in% country_codes & nrow(thedat)!=0){
   
 }
 
+
+# if(length(election_dat30)==0 & length(election_dat7)){
+#   
+#   election_dat3022 %>% 
+#     distinct(internal_id, .keep_all = T) %>% 
+#     arrange(desc(total_spend_formatted)) %>% View()
+#   
+#   election_dat3022 <-election_dat30 %>%
+#     rename(internal_id = page_id) %>%
+#     filter(is.na(no_data)) 
+#   
+# }
+
 print("hello")
 
 
